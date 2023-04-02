@@ -36,7 +36,6 @@ main{
 }
 
 .box1{
-  width:280px;
   height:150px;
   background-image:url(img/flow01.png);
   background-size: cover;
@@ -44,7 +43,6 @@ main{
 }
 
 .box2{
-  width:280px;
   height:150px;
   background-image:url(img/flow02.png);
   background-size: cover;
@@ -52,7 +50,6 @@ main{
 }
 
 .box3{
-  width:280px;
   height:150px;
   background-image:url(img/flow03.png);
   background-size: cover;
@@ -69,4 +66,22 @@ footer{
   width:100%;
   background-color:#AAAAAA;
   margin-top:50px;
+}
+
+@media screen and (max-width: 768px) {
+
+  main{
+    width:90%;
+    display:flex;
+    
+  }
+  
+  .box{
+  width:90%;
+  margin-bottom:20px;
+  margin-right: 0;
+  }
+  
+  
+  
 }
